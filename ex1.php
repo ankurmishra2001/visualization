@@ -318,7 +318,7 @@
       $format = 'json';
 
 
-      $searchUrl = 'http://linkedbrainz.org/sparql?'
+      $searchUrl = 'http://dbtune.org/musicbrainz/snorql/'
       .'query='.urlencode($query)
       .'&format='.$format;
       //echo $searchUrl;
